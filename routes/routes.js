@@ -3,8 +3,8 @@ const router = express.Router();
 
 const mainController = require("../controllers/mainController")
 
-router.get("/", mainController.homepage);
-router.post("/", mainController.postpage);
+router.get("/jumiadetails", mainController.getpage);
+
 
 
 module.exports = router;
